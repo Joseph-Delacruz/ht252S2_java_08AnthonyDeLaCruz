@@ -64,6 +64,9 @@ public class MainFrame extends JFrame {
 
         int y = 0;
 
+        c.gridx = 0; c.gridy = y; form.add(new JLabel("Registros De Equipos Informáticos:"), c);
+        c.gridx = 1;form.add(tfCodigo, c); y++;
+
         c.gridx = 0; c.gridy = y; form.add(new JLabel("Código:"), c);
         c.gridx = 1; form.add(tfCodigo, c); y++;
 
